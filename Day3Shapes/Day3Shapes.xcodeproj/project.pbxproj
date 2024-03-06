@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D792C0252B9231B8005EB414 /* Day3ShapesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D792C0242B9231B8005EB414 /* Day3ShapesApp.swift */; };
+		D792C0272B9231B8005EB414 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D792C0262B9231B8005EB414 /* ContentView.swift */; };
+		D792C0292B9231B9005EB414 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D792C0282B9231B9005EB414 /* Assets.xcassets */; };
+		D792C02D2B9231B9005EB414 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D792C02C2B9231B9005EB414 /* Preview Assets.xcassets */; };
+		D792C0372B9231BA005EB414 /* Day3ShapesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D792C0362B9231BA005EB414 /* Day3ShapesTests.swift */; };
+		D792C0412B9231BA005EB414 /* Day3ShapesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D792C0402B9231BA005EB414 /* Day3ShapesUITests.swift */; };
+		D792C0432B9231BA005EB414 /* Day3ShapesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D792C0422B9231BA005EB414 /* Day3ShapesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D792C0332B9231BA005EB414 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D792C0192B9231B8005EB414 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D792C0202B9231B8005EB414;
+			remoteInfo = Day3Shapes;
+		};
+		D792C03D2B9231BA005EB414 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D792C0192B9231B8005EB414 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D792C0202B9231B8005EB414;
+			remoteInfo = Day3Shapes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D792C0212B9231B8005EB414 /* Day3Shapes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day3Shapes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D792C0242B9231B8005EB414 /* Day3ShapesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3ShapesApp.swift; sourceTree = "<group>"; };
+		D792C0262B9231B8005EB414 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D792C0282B9231B9005EB414 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D792C02A2B9231B9005EB414 /* Day3Shapes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Day3Shapes.entitlements; sourceTree = "<group>"; };
+		D792C02C2B9231B9005EB414 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D792C0322B9231BA005EB414 /* Day3ShapesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Day3ShapesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D792C0362B9231BA005EB414 /* Day3ShapesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3ShapesTests.swift; sourceTree = "<group>"; };
+		D792C03C2B9231BA005EB414 /* Day3ShapesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Day3ShapesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D792C0402B9231BA005EB414 /* Day3ShapesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3ShapesUITests.swift; sourceTree = "<group>"; };
+		D792C0422B9231BA005EB414 /* Day3ShapesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3ShapesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D792C01E2B9231B8005EB414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D792C02F2B9231BA005EB414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D792C0392B9231BA005EB414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D792C0182B9231B8005EB414 = {
+			isa = PBXGroup;
+			children = (
+				D792C0232B9231B8005EB414 /* Day3Shapes */,
+				D792C0352B9231BA005EB414 /* Day3ShapesTests */,
+				D792C03F2B9231BA005EB414 /* Day3ShapesUITests */,
+				D792C0222B9231B8005EB414 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D792C0222B9231B8005EB414 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D792C0212B9231B8005EB414 /* Day3Shapes.app */,
+				D792C0322B9231BA005EB414 /* Day3ShapesTests.xctest */,
+				D792C03C2B9231BA005EB414 /* Day3ShapesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D792C0232B9231B8005EB414 /* Day3Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				D792C0242B9231B8005EB414 /* Day3ShapesApp.swift */,
+				D792C0262B9231B8005EB414 /* ContentView.swift */,
+				D792C0282B9231B9005EB414 /* Assets.xcassets */,
+				D792C02A2B9231B9005EB414 /* Day3Shapes.entitlements */,
+				D792C02B2B9231B9005EB414 /* Preview Content */,
+			);
+			path = Day3Shapes;
+			sourceTree = "<group>";
+		};
+		D792C02B2B9231B9005EB414 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D792C02C2B9231B9005EB414 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D792C0352B9231BA005EB414 /* Day3ShapesTests */ = {
+			isa = PBXGroup;
+			children = (
+				D792C0362B9231BA005EB414 /* Day3ShapesTests.swift */,
+			);
+			path = Day3ShapesTests;
+			sourceTree = "<group>";
+		};
+		D792C03F2B9231BA005EB414 /* Day3ShapesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D792C0402B9231BA005EB414 /* Day3ShapesUITests.swift */,
+				D792C0422B9231BA005EB414 /* Day3ShapesUITestsLaunchTests.swift */,
+			);
+			path = Day3ShapesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D792C0202B9231B8005EB414 /* Day3Shapes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D792C0462B9231BA005EB414 /* Build configuration list for PBXNativeTarget "Day3Shapes" */;
+			buildPhases = (
+				D792C01D2B9231B8005EB414 /* Sources */,
+				D792C01E2B9231B8005EB414 /* Frameworks */,
+				D792C01F2B9231B8005EB414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Day3Shapes;
+			productName = Day3Shapes;
+			productReference = D792C0212B9231B8005EB414 /* Day3Shapes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D792C0312B9231BA005EB414 /* Day3ShapesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D792C0492B9231BA005EB414 /* Build configuration list for PBXNativeTarget "Day3ShapesTests" */;
+			buildPhases = (
+				D792C02E2B9231BA005EB414 /* Sources */,
+				D792C02F2B9231BA005EB414 /* Frameworks */,
+				D792C0302B9231BA005EB414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D792C0342B9231BA005EB414 /* PBXTargetDependency */,
+			);
+			name = Day3ShapesTests;
+			productName = Day3ShapesTests;
+			productReference = D792C0322B9231BA005EB414 /* Day3ShapesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D792C03B2B9231BA005EB414 /* Day3ShapesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D792C04C2B9231BA005EB414 /* Build configuration list for PBXNativeTarget "Day3ShapesUITests" */;
+			buildPhases = (
+				D792C0382B9231BA005EB414 /* Sources */,
+				D792C0392B9231BA005EB414 /* Frameworks */,
+				D792C03A2B9231BA005EB414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D792C03E2B9231BA005EB414 /* PBXTargetDependency */,
+			);
+			name = Day3ShapesUITests;
+			productName = Day3ShapesUITests;
+			productReference = D792C03C2B9231BA005EB414 /* Day3ShapesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D792C0192B9231B8005EB414 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					D792C0202B9231B8005EB414 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					D792C0312B9231BA005EB414 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D792C0202B9231B8005EB414;
+					};
+					D792C03B2B9231BA005EB414 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D792C0202B9231B8005EB414;
+					};
+				};
+			};
+			buildConfigurationList = D792C01C2B9231B8005EB414 /* Build configuration list for PBXProject "Day3Shapes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D792C0182B9231B8005EB414;
+			productRefGroup = D792C0222B9231B8005EB414 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D792C0202B9231B8005EB414 /* Day3Shapes */,
+				D792C0312B9231BA005EB414 /* Day3ShapesTests */,
+				D792C03B2B9231BA005EB414 /* Day3ShapesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D792C01F2B9231B8005EB414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D792C02D2B9231B9005EB414 /* Preview Assets.xcassets in Resources */,
+				D792C0292B9231B9005EB414 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D792C0302B9231BA005EB414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D792C03A2B9231BA005EB414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D792C01D2B9231B8005EB414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D792C0272B9231B8005EB414 /* ContentView.swift in Sources */,
+				D792C0252B9231B8005EB414 /* Day3ShapesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D792C02E2B9231BA005EB414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D792C0372B9231BA005EB414 /* Day3ShapesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D792C0382B9231BA005EB414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D792C0412B9231BA005EB414 /* Day3ShapesUITests.swift in Sources */,
+				D792C0432B9231BA005EB414 /* Day3ShapesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D792C0342B9231BA005EB414 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D792C0202B9231B8005EB414 /* Day3Shapes */;
+			targetProxy = D792C0332B9231BA005EB414 /* PBXContainerItemProxy */;
+		};
+		D792C03E2B9231BA005EB414 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D792C0202B9231B8005EB414 /* Day3Shapes */;
+			targetProxy = D792C03D2B9231BA005EB414 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D792C0442B9231BA005EB414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D792C0452B9231BA005EB414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D792C0472B9231BA005EB414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Day3Shapes/Day3Shapes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Day3Shapes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Day3Shapes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D792C0482B9231BA005EB414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Day3Shapes/Day3Shapes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Day3Shapes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Day3Shapes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D792C04A2B9231BA005EB414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Day3ShapesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day3Shapes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Day3Shapes";
+			};
+			name = Debug;
+		};
+		D792C04B2B9231BA005EB414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Day3ShapesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day3Shapes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Day3Shapes";
+			};
+			name = Release;
+		};
+		D792C04D2B9231BA005EB414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Day3ShapesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Day3Shapes;
+			};
+			name = Debug;
+		};
+		D792C04E2B9231BA005EB414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Day3ShapesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Day3Shapes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D792C01C2B9231B8005EB414 /* Build configuration list for PBXProject "Day3Shapes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D792C0442B9231BA005EB414 /* Debug */,
+				D792C0452B9231BA005EB414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D792C0462B9231BA005EB414 /* Build configuration list for PBXNativeTarget "Day3Shapes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D792C0472B9231BA005EB414 /* Debug */,
+				D792C0482B9231BA005EB414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D792C0492B9231BA005EB414 /* Build configuration list for PBXNativeTarget "Day3ShapesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D792C04A2B9231BA005EB414 /* Debug */,
+				D792C04B2B9231BA005EB414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D792C04C2B9231BA005EB414 /* Build configuration list for PBXNativeTarget "Day3ShapesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D792C04D2B9231BA005EB414 /* Debug */,
+				D792C04E2B9231BA005EB414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D792C0192B9231B8005EB414 /* Project object */;
+}
